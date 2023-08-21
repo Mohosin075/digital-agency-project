@@ -27,3 +27,46 @@ nav{
     color: black;
     font-size: 20px;
 }
+
+/* banner */
+.banner{
+    background-image: url('./images/image/background.jpg'), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.banner-content{
+    width: 50%;
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 80px;
+    color: white;
+}
+.banner-content span{
+    color: red;
+}
+.banner-content p{
+    font-size: 25px;
+    color: white;
+    margin: 20px 0;
+}
+.btn{
+    padding: 15px 25px;
+    border: none;
+    font-size: 18px;
+}
+.discover-btn{
+    margin-right: 20px;
+    color: white;
+    background-color: red;
+}
+.hireUs-btn{
+    color: black;
+    background-color: white; 
+}
