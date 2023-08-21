@@ -48,7 +48,7 @@ nav{
     font-size: 80px;
     color: white;
 }
-.banner-content span{
+.banner-content span, .services-left span{
     color: red;
 }
 .banner-content p{
@@ -69,4 +69,123 @@ nav{
 .hireUs-btn{
     color: black;
     background-color: white; 
+}
+
+/* services section */
+.services{
+    background-image: url('./images/image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    height: 100vh;
+    color: white;
+    padding: 0 50px;
+    position: relative;
+}
+.services-container{
+    display: flex;
+}
+.services-left{
+    width: 50%;
+    padding-top: 100px;
+}
+.services-right{
+    width: 50%;
+}
+.services-btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+.services-left h2{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.services-left p{
+    font-size: 22px;
+}
+.services-left ol{
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.author-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.author-info img{
+    width: 80px;
+    border-radius: 50%;
+}
+.author-btn{
+    color: red;
+}
+.more-details{
+    border-left: 1px solid red;
+    padding: 30px;
+}
+
+.services-right {
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.services-card{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.services-card img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.services-card h3{
+    font-size: 22px;
+}
+
+.services-contact{
+    background-color: red;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.services-contact img{
+    width: 100px;
+}
+.contact-left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contact-left h4{
+    font-size: 14px;
+}
+.contact-left h2{
+    font-size: 30px;
+}
+.contact-right{
+    display: flex;
+    align-items: center;
+    border-left: 1px solid green;
+    padding: 20px;
+}
+.contact-right p{
+    font-size: 18px;
 }
